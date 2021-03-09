@@ -1,14 +1,12 @@
 # Ignite-reactjs-01GitHubExplore
 
-Installation du Webpack
+Structure React
 
-Webpack c'est un convertisseur de archives ex{
-.js,.png,.sass
-} de façon que les brownsers peutvent comprendre.
+function render() {
 
-pour la installation :
-
-yarn add webpack webpack-cli webpack-dev-server -D
-yarn add babel-loader -D
-
-creation du webpack.config.js
+- premiere parametre: exibition dans le display
+- deuxieme parametre: dedans quelle element je veux renderizer le element
+  }
+  document.getElementById() {
+- function javascript cherche un element dedant le display
+  }
