@@ -1,9 +1,10 @@
 # Ignite-reactjs-01GitHubExplore
 
-HTML static
+# Webpack dev server{
 
-- configuration du webpack html-webpack-plugin
+-- il sert a executer le webpack automatiquement de que il y as une alteration dans une ligne de code;
+}
 
-yarn add html-webpack-plugin -D
+# installation du webpack dev server
 
-Le but c'est injecte directement le html sans besoin pointer le bundle.js dans le index.js
+yarn add webpack-dev-server -D
