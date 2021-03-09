@@ -1,12 +1,9 @@
 # Ignite-reactjs-01GitHubExplore
 
-Structure React
+HTML static
 
-function render() {
+- configuration du webpack html-webpack-plugin
 
-- premiere parametre: exibition dans le display
-- deuxieme parametre: dedans quelle element je veux renderizer le element
-  }
-  document.getElementById() {
-- function javascript cherche un element dedant le display
-  }
+yarn add html-webpack-plugin -D
+
+Le but c'est injecte directement le html sans besoin pointer le bundle.js dans le index.js
