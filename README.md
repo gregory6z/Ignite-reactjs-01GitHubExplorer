@@ -14,7 +14,7 @@ et dans le windows ou autres sistemes
 
 ### L'exécution du projet
 
-développement:
-`yarn dev`
-production:
+développement:<br>
+`yarn dev` <br>
+production:<br>
 `yarn build`
