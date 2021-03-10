@@ -2,9 +2,7 @@
 
 ## Concepts Importants
 
-### premier composant React
+### Propriétés dans ReactJS
 
--- Les composants sont le moyen de diviser l'application en plusieurs parties, <br>
-pouvant être réutilisées n'importe où dans l'application
-
--- Dedans le React composants sont une function qui renvoie une fichier HTML
+-- Les Propriétes dans le react sont comment les attributs dans le tags HTML,
+sont des informations variables passé à un composant pour fonctionner de forme différent
