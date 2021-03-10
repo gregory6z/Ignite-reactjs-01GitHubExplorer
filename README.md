@@ -8,9 +8,9 @@
 
 ### Utilization du useState
 
-import { useState } from 'react'
+` import { useState } from 'react'`
 
-const [counter , setCounter] = useState('etat initial')
+`const [counter , setCounter] = useState('etat initial')`
 
 [0] = Variable initiale
 [1] = mise a jour de la variable
