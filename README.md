@@ -4,4 +4,4 @@
 
 ### En utilizant de source maps
 
--- Il fait visualizer dans browser a la meme façon du code original;
+Il fait visualizer dans browser a la meme façon du code original;
