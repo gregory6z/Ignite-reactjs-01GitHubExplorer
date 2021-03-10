@@ -2,15 +2,29 @@
 
 ## Concepts Importants
 
-### Etát du composant
+### La immutabilité dans le React
 
---sont des variables surveillées qui, lorsqu'elles sont modifiées, leur nouvelle valeur est rendue
+Pas changer le valeur de la variable,
+mais en créer une autre avec le valeur
+mise à jour, ça s'apelle immutabilité;
 
-### Utilization du useState
+### Exemple :
 
-` import { useState } from 'react'`
+#### sans immutabilité :
 
-`const [counter , setCounter] = useState('etat initial')`
+```javascript
+users = ["Gregory", "Arthur", "Valesca"];
+users.push("Beatriz");
+```
 
-[0] = Variable initiale <br>
-[1] = mise a jour de variable
+--ici on fait une mutation dans la valeur de la variable n'entrant pas dans le facteur d'immuabilité
+
+#### avec immutabilité
+
+```javascript
+users = ["Gregory", "Arthur", "Valesca"];
+newUsers = [...users, "Beatriz"];
+```
+
+-- créer toujours un nouvel espace contenu dans <br>
+la mémoire au lieu de modifier ce qui était déjà enregistré
