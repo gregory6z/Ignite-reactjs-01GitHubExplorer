@@ -12,5 +12,5 @@
 
 `const [counter , setCounter] = useState('etat initial')`
 
-[0] = Variable initiale
+[0] = Variable initiale <br>
 [1] = mise a jour de la variable
