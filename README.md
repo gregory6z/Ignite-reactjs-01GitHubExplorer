@@ -2,6 +2,19 @@
 
 ## Mise en place de l'environnement
 
-### En utilizant de source maps
+### Environnement de développement et de production
 
-Il fait visualizer dans browser a la meme façon du code original;
+Creation de variable d'environnement NODE_ENV dans le linux et mac:
+
+`NODE_ENV=production yarn webpack`
+
+et dans le windows ou autres sistemes
+
+`yarn add cross-env -D`
+
+### L'exécution du projet
+
+développement:
+`yarn dev`
+production:
+`yarn build`
