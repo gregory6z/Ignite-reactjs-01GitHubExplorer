@@ -2,10 +2,11 @@
 
 ## Mise en place de l'environnement
 
-### L'importation des fichiers CSS:
+### En utilization du SASS
 
--- Configuration pour le webpack comprendre les fichiers css
+-- Utilisation d'un outil de traitement css
 
-### Instalation des loaders
+### Instalation SASS
 
-`yarn add style-loader css-loader -D`
+`yarn add node-sass -D` <br>
+`yarn add sass-loader -D`
