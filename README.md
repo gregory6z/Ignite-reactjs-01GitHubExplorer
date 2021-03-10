@@ -1,10 +1,7 @@
 # Ignite-reactjs-01GitHubExplore
 
-# Webpack dev server{
+## Mise en place de l'environnement
 
--- il sert a executer le webpack automatiquement de que il y as une alteration dans une ligne de code;
-}
+### En utilizant de source maps
 
-# installation du webpack dev server
-
-yarn add webpack-dev-server -D
+-- Il fait visualizer dans browser a la meme façon du code original;
