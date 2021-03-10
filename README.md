@@ -1,12 +1,10 @@
 # Ignite-reactjs-01GitHubExplore
 
-## Mise en place de l'environnement
+## Concepts Importants
 
-### En utilization du SASS
+### premier composant React
 
--- Utilisation d'un outil de traitement css
+-- Les composants sont le moyen de diviser l'application en plusieurs parties, <br>
+pouvant être réutilisées n'importe où dans l'application
 
-### Instalation SASS
-
-`yarn add node-sass -D` <br>
-`yarn add sass-loader -D`
+-- Dedans le React composants sont une function qui renvoie une fichier HTML
