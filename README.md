@@ -4,7 +4,7 @@
 
 ### L'importation des fichiers CSS:
 
--- Configuration pour que le webpack comprenne les fichiers css
+-- Configuration pour le webpack comprendre les fichiers css
 
 ### Instalation des loaders
 
