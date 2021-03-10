@@ -4,7 +4,7 @@
 
 ### La immutabilité dans le React
 
-Pas changer le valeur de la variable,
+Consiste en pas changer le valeur de la variable,
 mais en créer une autre avec le valeur
 mise à jour, ça s'apelle immutabilité;
 
