@@ -2,19 +2,10 @@
 
 ## Mise en place de l'environnement
 
-### Environnement de développement et de production
+### L'importation des fichiers CSS:
 
-Creation de variable d'environnement NODE_ENV dans le linux et mac:
+-- Configuration pour que le webpack comprenne les fichiers css
 
-`NODE_ENV=production yarn webpack`
+### Instalation des loaders
 
-et dans le windows ou autres sistemes
-
-`yarn add cross-env -D`
-
-### L'exécution du projet
-
-développement:<br>
-`yarn dev` <br>
-production:<br>
-`yarn build`
+`yarn add style-loader css-loader -D`
