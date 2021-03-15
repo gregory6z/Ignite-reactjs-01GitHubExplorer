@@ -2,29 +2,23 @@
 
 ## Concepts Importants
 
-### La immutabilité dans le React
+### ajouté le React Refresh Webpack plugin
 
-Consiste en pas changer le valeur de la variable,
-mais en créer une autre avec le valeur
-mise à jour, ça s'apelle immutabilité;
+Lorsque nous sauvegardons après avoir changé un code  
+le webpack renouvelle l'ensemble de l'application perdant ainsi toutes  
+les actions effectuées et l'état, le refresh webpack a été créée pour résoudre  
+ce problème et enregistrer tous les états déjà créés.
 
-### Exemple :
+#### installation:
 
-#### sans immutabilité :
+`yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refreshyarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh`
 
-```javascript
-users = ["Gregory", "Arthur", "Valesca"];
-users.push("Beatriz");
-```
+dans la configuration plugin: ligne22
 
---ici on fait une mutation dans la valeur de la variable n'entrant pas dans le facteur d'immuabilité
+`isDevelopment && new ReactRefreshWebpackPlugin(),`
 
-#### avec immutabilité
+ici, lorsque nous vérifions et est en production,  
+cela deviendra faux et ne s'exécutera pas pour résoudre ce problème,
+nous utilisons le:
 
-```javascript
-users = ["Gregory", "Arthur", "Valesca"];
-newUsers = [...users, "Beatriz"];
-```
-
--- créer toujours un nouvel espace contenu dans <br>
-la mémoire au lieu de modifier ce qui était déjà enregistré
+`.filter(Boolean)`
