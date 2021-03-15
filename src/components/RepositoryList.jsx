@@ -23,10 +23,10 @@ useEffect(()=> {
       <h1>Liste des référentiels</h1>
 
       <ul>
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
-        <RepositoryItem repository={repository} />
+        {repositories.map(repository => {
+          return <RepositoryItem key={repository.name} repository={repository} />
+        })}
+        
       </ul>
     </section>
   )
